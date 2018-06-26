@@ -4,7 +4,7 @@ buildscript {
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.3.RELEASE")
-    }
+   }
 }
 
 apply plugin: 'java'
@@ -28,4 +28,5 @@ targetCompatibility = 1.8
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-amqp")
     testCompile("junit:junit")
+    compile 'org.springframework.amqp:spring-rabbit:2.0.4.RELEASE'
 }
