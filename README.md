@@ -8,8 +8,17 @@
 cd hello/
 mvn package
 ```
-### Run
+#### Run
 ```
 java -jar target/gs-messaging-rabbitmq-0.1.0.jar
 ```
 
+### Build using gradle
+```
+cd hello
+gradle build
+```
+#### Run
+```
+java -jar build/libs/gs-messaging-rabbitmq-0.1.0.jar
+```
